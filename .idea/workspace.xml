@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78016b57-3302-422d-9741-4d061fb2a0c3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\wangyq\maven_repsitory" />
+        <option name="mavenHome" value="E:/wangyq/apache-maven-3-5" />
+        <option name="userSettingsFile" value="E:\wangyq\apache-maven-3-5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1m70pDmCqwcSPV3VU9mss77ZYgV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_workspce\servlet-2\src\main\resources" />
+      <recent name="D:\IDEA_workspce\servlet-2\src\main\resources\WEB-INF" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78016b57-3302-422d-9741-4d061fb2a0c3" name="Default Changelist" comment="" />
+      <created>1608829502200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608829502200</updated>
+      <workItem from="1608829503659" duration="1986000" />
+      <workItem from="1608831824463" duration="11785000" />
+      <workItem from="1608952484620" duration="11450000" />
+      <workItem from="1609116733594" duration="77000" />
+      <workItem from="1609116865802" duration="880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="12" key="#com.intellij.ide.util.MemberChooser" timestamp="1608953006936">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state x="448" y="12" key="#com.intellij.ide.util.MemberChooser/0.0.1366.724@0.0.1366.724" timestamp="1608953006936" />
+    <state x="354" y="61" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608952973777">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state x="354" y="61" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.724@0.0.1366.724" timestamp="1608952973777" />
+    <state x="53" y="84" key="FileChooserDialogImpl" timestamp="1608863597779">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state x="53" y="84" key="FileChooserDialogImpl/0.0.1366.724@0.0.1366.724" timestamp="1608863597779" />
+    <state width="1310" height="374" key="GridCell.Tab.0.bottom" timestamp="1608864136428">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state width="1310" height="374" key="GridCell.Tab.0.bottom/0.0.1366.724@0.0.1366.724" timestamp="1608864136428" />
+    <state width="1310" height="374" key="GridCell.Tab.0.center" timestamp="1608864136427">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state width="1310" height="374" key="GridCell.Tab.0.center/0.0.1366.724@0.0.1366.724" timestamp="1608864136427" />
+    <state width="1310" height="374" key="GridCell.Tab.0.left" timestamp="1608864136427">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state width="1310" height="374" key="GridCell.Tab.0.left/0.0.1366.724@0.0.1366.724" timestamp="1608864136427" />
+    <state width="1310" height="374" key="GridCell.Tab.0.right" timestamp="1608864136427">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state width="1310" height="374" key="GridCell.Tab.0.right/0.0.1366.724@0.0.1366.724" timestamp="1608864136427" />
+    <state x="39" y="0" key="SettingsEditor" timestamp="1608863599880">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state x="39" y="0" key="SettingsEditor/0.0.1366.724@0.0.1366.724" timestamp="1608863599880" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1608859064806">
+      <screen x="0" y="0" width="1366" height="724" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.724@0.0.1366.724" timestamp="1608859064806" />
+  </component>
+</project>
