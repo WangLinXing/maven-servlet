@@ -1,6 +1,76 @@
 ## maven servlet
 构建一个基于maven的servlet工程
 
+说明：
+
+这个工程的目的验证HttpSession的工作原理，使用的是maven工程增加了相关的依赖
+外部依赖独立的tomcat.
+
+
+相关知识点汇总：
+
+**工程方面**
+- 1 引入servlet的依赖组件
+- 2 引入jsp的依赖组件
+- 3 打war包配置
+- 4 maven打包指令
+- 5 开发的deploy.bat部署工具
+- 6 在web.xml中配置servlet、session
+- 7 验证了在maven工程中开发jsp的方法
+
+**代码方面**
+
+验证了HttpSession的工作原理：
+
+- 1 写入sesson列表
+
+当用户第一次提交请求时，服务端Servlet中执行到request.getSession()方法后，会自动创建一个Map.Entry对象，key为一个某种算法新生成的JSessionID，value则为新创建的HttpSession对象
+这个过程就是创建Session
+
+- 2 服务器生成并发送cookie
+
+Session信息写入Session列表后，系统还会将JSESSION作为name,这个32位长的随机串作为value，以Cookie的形式放在Http Response Header中，把这个cookie 发送到客户端
+
+- 3 客户端接收并发送cookie
+
+客户端收到这个cookie之后会将其存放到浏览器的缓存中，只要客户端浏览器不关闭，浏览器中缓存的cookie就不会消失。
+
+当用户提交第2此请求时，会将缓存中的这个cookie伴随请求头部信息一起发送给服务端。
+
+
+- 4 从sessoion列表中查找
+
+服务端从请求头中读取到客户端发送来的Cookie,并根据Cookie的JSESSIONID的值，从Map中查找响应key对应的value，即session对象，然后对该Session对象的域属性进行读写操作。
+
+
+- 5 session失效
+
+Web开发中引入的Session 概念，Session的失效就是指Session的超时，若某个Session在指定的时间范围内未被访问，那么Session将超时，即将失效。
+
+在web.xml中可以通过<session-config>标签设置Session的超时时间，单位是分钟
+默认Session的超时时间是30分钟，需要再次强调的是，这个时间并不是从Session被创建开始计时的生命周期时长，而是从最后一个被访问开始计时的，在指定的时长内一直未被访问的时长。
+
+代码结构：
+##### 1.创建index.html
+在这个文件中创建一个form,提交一个get请求，传递一个username产生，请求发送到some
+
+##### 2.创建一个UserLoginServlet
+在doGet()中接收用户发送的username,然后调用
+HttpSession session = request.getSession(true);创建一个与当前请求相关的Session
+把客户端提交的数据写入session
+session.setAttribute("username",username);
+然后调用
+
+PrintWriter out = response.getWriter();
+
+out.println("SomeServlet username="+username);
+
+out.println("SomeServlet  session:"+session);
+
+输出数据到页面，这里没有指定Content-Type时PrintWriter就按普通字符串输出
+
+
+
 ### 1.构建pom
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
