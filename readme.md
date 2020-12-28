@@ -1,7 +1,7 @@
 ## maven servlet
 构建一个基于maven的servlet工程
 
-###1.构建pom
+### 1.构建pom
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
